@@ -13,24 +13,23 @@ body{
     max-width: 1800px;
 }
 
-.container{
-    justify-content: center;
-    align-items: center;
+div{
     display: flex;
+    padding: 30px;
+    justify-content: space-between;
+}
+
+.cabecario{
     color:  rgb(5, 117, 214);
-    padding: 10px;
-    font-size: 30px; 
+    font-size: 30px;
+    margin: 150px;
+     
 }
 
-.links{
-    padding: 100px;
-}
 
-nav ul li{
-    display: flex;
+nav ul li {
+    display: inline;
     justify-content: center;
-    align-items: center;
-    padding: 12vh;
 }
 
 nav ul li a{
@@ -39,4 +38,10 @@ nav ul li a{
     background-color: rgb(5, 117, 214);
     padding: 20px;
     border-radius: 15px;
+    margin: 40px;
+}
+
+.texto{
+    font-size: 25px;
+    padding: 150px;
 }

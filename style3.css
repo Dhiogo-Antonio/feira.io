@@ -13,30 +13,41 @@ body{
     max-width: 1800px;
 }
 
-.container{
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    color:  rgb(5, 117, 214);
-    padding: 10px;
-    font-size: 30px; 
-}
-
-.links{
-    padding: 100px;
-}
-
-nav ul li{
+header{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 12vh;
+    padding: 5vh;
+    font-size: 35px;
+    color: rgb(5, 117, 214);
 }
 
-nav ul li a{
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dados{
+    height: 60vh;
+    padding: 0px;
+    font-size: 30px;
+}
+
+div nav ul{
+    list-style: none;
     text-decoration: none;
-    color: rgb(0, 0, 0);
-    background-color: rgb(5, 117, 214);
-    padding: 20px;
-    border-radius: 15px;
+    
 }
+
+div nav ul li a{
+    text-decoration: none;
+    background-color: rgb(5, 117, 214);
+    border-radius: 15px;
+    padding: 10px;
+    color: black;
+    font-size: 20px;
+    
+}
+
+    
